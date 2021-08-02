@@ -1,0 +1,52 @@
+body {
+  margin-left: 5px;
+}
+button {
+  padding: 15px 20px;
+  font-family: Georgia, sans-serif;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-top: 15px;
+
+  border: none;
+
+  border-radius: 20px;
+
+}
+
+.app__title {
+  margin: 30px auto;
+  font-family: Arial, sans-serif;
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+button:hover {
+  color: white;
+  cursor: pointer;
+  background: #b592d9;
+}
+
+.btn.btn-outline-light__reset:hover {
+  background: red;
+  color: antiquewhite;
+}
+
+.timer-button-container {
+  text-align: center;
+}
+.timer-counter-label {
+  text-align: center;
+}
+
+.timer {
+  margin-top: 30px;
+  font-size: 30px;
+
+}
